@@ -17,16 +17,18 @@
         android:background="#1023D7"
         android:backgroundTint="#1023D7"
         android:text="Alfândega"
+        android:gravity="center"
         android:textAlignment="center"
         android:textColor="#FAFAFA"
         android:textColorHint="#5D5A5A"
-        android:textSize="34sp"
+        android:textDirection="anyRtl"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.001" />
 
     <ImageView
         android:id="@+id/minhaImg"
